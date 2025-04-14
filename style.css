@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(110, 92, 98);
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+}
+p{
+    font-weight: bold;
+    font-style: italic;
+}
+h1 {
+    margin-bottom: 20px;
+    color: #000000;
+}
+.linha {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.quadrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #000000;
+    margin: 1px;
+    font-size: 32px;
+    background-color: white;
+}
+
+.teclado {
+    margin-top: 20px;
+}
+
+.linha-teclado {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.tecla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 40px;
+    margin: 2px;
+    border-radius: 4px;
+    background-color: #ddd;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.tecla:hover {
+    background-color: #ccc;
+}
+
+.tecla-deletar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 40px;
+    margin: 2px;
+    border-radius: 4px;
+    background-color: #ddd;
+    font-size: 24px;
+    margin-left: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.tecla-deletar:hover {
+    background-color: #ccc;
+}
+.tecla-enter {
+    width: 60px;
+    background-color: #4CAF50;
+    margin-left: 10px;
+    color: white;
+}
+
+.tecla-enter:hover {
+    background-color: #388E3C;
+}
